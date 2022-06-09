@@ -13,7 +13,7 @@ async def _manage(_, msg):
     await msg.reply(
         how,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton('Support Group', url='https://t.me/StarkBotsChat')]
+            [InlineKeyboardButton('Follow on github', url='https://github.com/subhan-1')]
         ]),
         quote=True
     )

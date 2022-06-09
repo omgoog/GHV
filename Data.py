@@ -10,7 +10,7 @@ Welcome to {}
 
 You can use me to manage channels with tons of features. Use below buttons to learn more !
 
-By @StarkBots
+By @Subhan011
     """
 
     # Home Button
@@ -20,13 +20,12 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/Subhan011/14")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("More Amazing bots", url="https://t.me/Subhan011")],        
     ]
 
     # Help Message
@@ -50,13 +49,11 @@ Alternative Commands
     ABOUT = """
 **About This Bot** 
 
-A telegram channel automation bot by @StarkBots
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ChannelBot)
+A telegram channel automation bot by @Subhan011
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @CvSubhan
     """
